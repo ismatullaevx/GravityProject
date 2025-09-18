@@ -7,7 +7,7 @@ export default function Header() {
         <img src={grafity} alt="" />
         <ul className=' w-full text-white'>
             <li>About Us</li>
-            <li>Work with Us</li>
+            <li>Work with UsMas</li>
             <select name="" id="">
                 <option value="">Our Services</option>
             </select>
