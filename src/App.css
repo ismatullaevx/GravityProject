@@ -4,3 +4,10 @@
     height: 16px;
     border-radius: 8px;
 }
+.IMgOne {
+    background-image: url(./assets/icons/mix.png);
+
+}
+.IMgThree {
+    background-image: url(./assets/icons/mix3.png);
+}

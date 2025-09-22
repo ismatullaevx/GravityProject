@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
 
-            <div className={"px-50 pt-25 pb-15"}>
+            <div className={"px-12 pt-25 pb-15"}>
                 <div className='flex justify-between w-full'>
                     <div className={"grid gap-3"}>
                         <p className={"text-[#fff] text-[15px] font-family"}>Gravity Team</p>
