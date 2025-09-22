@@ -71,10 +71,10 @@ export default function CryptoMarket() {
 
       <div className='mt-8 md:mt-[40px] flex flex-col-reverse md:flex-row items-center justify-between bg-2'>
         <div className='mt-8 md:mt-0'>
-          <div className='relative h-[200px] md:h-[300px] w-[200px] md:w-[300px] '>
-            <img src={token2} alt="Token 2" className='absolute top-50 left-0 w-16 h-16 md:w-20 md:h-20' />
-            <img src={token3} alt="Token 3" className='absolute top-50 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20' />
-            <img src={token4} alt="Token 4" className='absolute top-80 bottom-30 right-20 w-16 h-16 md:w-20 md:h-20' />
+          <div className='relative h-[200px] md:h-[300px] w-[200px] md:w-[300px]'>
+            <img src={token2} alt="Token 2" className='absolute top-0 left-0 w-16 h-16 md:w-20 md:h-20' />
+            <img src={token3} alt="Token 3" className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-16 h-16 md:w-20 md:h-20' />
+            <img src={token4} alt="Token 4" className='absolute bottom-0 right-0 w-16 h-16 md:w-20 md:h-20' />
           </div>
           <div className='mt-[50px] md:mt-[100px] lg:mt-[300px] text-center md:text-left'>
             <h1 className='text-3xl md:text-5xl lg:text-[60px] text-white leading-tight md:leading-[78px]'>
