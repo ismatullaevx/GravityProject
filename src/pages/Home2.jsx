@@ -1,14 +1,19 @@
 import React from 'react';
 import Join from '../components/Join.jsx';
 import TeaM from "../components/Team.jsx";
+
+import Contact from "../components/Contact.jsx";
 import Footer from "../components/Footer.jsx";
+import Header from "../components/Header.jsx";
 
 const Home2 = () => {
     return (
-        <div className='px-[120px] py-[20px]'>
-            <Join />
-            <TeaM />
-            <Footer />
+        <div>
+            <Header/>
+            <Join/>
+            <TeaM/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

@@ -4,9 +4,9 @@ import React from "react";
 export default function Join() {
     return (
         <div className={"text-[#fff] IMgOne bg-no-repeat"}>
-            <div className={"container mx-auto flex items-center justify-between min-h-screen w-screen"}>
-                <div>
-                    <p className={"text-[73px] font-family leading-22"}>
+            <div className={"container mx-auto grid lg:flex items-center justify-between min-h-screen w-screen px-10 lg:px-0"}>
+                <div className={"lg:pt-0 pt-50"}>
+                    <p className={"text-[50px] lg:text-[73px] font-family lg:leading-22"}>
                         Join <br/>
                         Gravity Team
                     </p>
@@ -28,24 +28,6 @@ export default function Join() {
 
 
                         <FaArrowRight/>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div
-                    className={"IMgThree bg-no-repeat  container flex flex-col gap-10 items-center justify-center  min-h-screen w-screen"}>
-
-
-                    <p className='text-white text-center text-[78px] '>Contact Us</p>
-                    <div className=' flex itemes-center justify-center'><p
-                        className='text-white text-center text-[18px] w-[40%]'>
-                        We are always open to discuss new value-adding partnerships. Do reach out if you are an exchange
-                        or a project looking for liquidity; an algorithmic trader or a software developer looking to
-                        improve the markets with us or just have a great idea you can’t wait to share with us!</p>
-                    </div>
-                    <div className=' flex itemes-center justify-center  '>
-                        <div className='Btn1 px-10 py-3'>GET IN TOUCH</div>
-
                     </div>
                 </div>
             </div>

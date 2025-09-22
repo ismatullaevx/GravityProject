@@ -54,14 +54,14 @@ export default function Join() {
     const [activeC, setActiveC] = useState(1);
 
     return (
-        <div className={"text-[#fff] px-100 py-20 grid items-center justify-center"}>
+        <div className={"text-[#fff] py-20 flex flex-col items-center justify-center px-5 lg:px-100"}>
             <div className={"grid items-center  justify-center text-center"}>
-                <p className={" text-[57px] font-family"}>We are in a good company</p>
-                <p className={" mx-65 pt-3 text-[20px]"}>
+                <p className={"leading-13 lg:leading-22 text-[57px] font-family"}>We are in a good company</p>
+                <p className={"pt-5 mx-0 lg:mx-65 lg:pt-3 text-[20px]"}>
                     Our partnerships have delivered great value to our projects and we’re happy to share some of their
                     feedback below</p>
             </div>
-            <div className={"flex items-center justify-center pt-5 gap-8"}>
+            <div className={"flex items-center justify-center pt-5 gap-15 lg:gap-8"}>
                 <img onClick={() => {
                     activeC <= 1 ? null : setActiveC(activeC - 1)
                 }} src={leftbutton} alt=" logo" className={"w-[58px] h-[58px]"}/>
@@ -70,7 +70,7 @@ export default function Join() {
                 }} src={rightbutton} alt=" logo" className={"w-[58px] h-[58px]"}/>
             </div>
 
-            <div className={"flex text-center w-[69%] mx-42 pt-10"}>
+            <div className={"flex text-center w-[100%] lg:w-[69%] mx-42 pt-10"}>
                 {products.map((item) => (
                     <div key={item.id}
                          onClick={() => {
@@ -100,6 +100,7 @@ export default function Join() {
                 ))}
             </div>
         </div>
+
     )
 
 }
