@@ -4,9 +4,9 @@ import React from "react";
 export default function Join() {
     return (
         <div className={"text-[#fff] IMgOne bg-no-repeat"}>
-            <div className={"container mx-auto flex items-center justify-between min-h-screen w-screen"}>
-                <div>
-                    <p className={"text-[73px] font-family leading-22"}>
+            <div className={"container mx-auto grid lg:flex items-center justify-between min-h-screen w-screen px-10 lg:px-0"}>
+                <div className={"lg:pt-0 pt-50"}>
+                    <p className={"text-[50px] lg:text-[73px] font-family lg:leading-22"}>
                         Join <br/>
                         Gravity Team
                     </p>
