@@ -17,3 +17,41 @@
 .Btn1 {
     background: linear-gradient(to bottom, #665DCD, #5FA4E6, #D2AB67);
 }
+
+.bg-1 {
+    background-image: url(./assets/imgs/middle.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.bg-2 {
+    background-image: url(./assets/imgs/middle2.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.bg-3 {
+    background-image: url(./assets/imgs/middle3.png);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.leander2 {
+    background: linear-gradient(#41557226, #1B1B1E1A);
+    width: 192px;
+    height: 192px;
+    border-radius: 8px;
+    border: solid 1px #41557226;
+    padding: 60px;
+}
+
+.leander3 {
+    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67);
+    padding: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
