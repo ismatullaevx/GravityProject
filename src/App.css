@@ -1,6 +1,14 @@
-.leander{
-    background: linear-gradient(#665DCD,#5FA4E6,#D2AB67);
+.leander {
+    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67);
     width: 16px;
     height: 16px;
     border-radius: 8px;
+}
+
+.leander2 {
+    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67);
+    width: 191px;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }

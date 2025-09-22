@@ -20,7 +20,7 @@ export default function Header() {
 
             <div className='flex items-center gap-4'>
                 <div className='leander'></div>
-                <h1 className='text-white'>Get In Touch</h1>
+                <h1 className='text-white'>GET IN TOUCH</h1>
             </div>
 
         </div>
