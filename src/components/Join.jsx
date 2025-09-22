@@ -54,7 +54,7 @@ export default function Join() {
     const [activeC, setActiveC] = useState(1);
 
     return (
-        <div className={"text-[#fff] px-100 py-20 grid items-center justify-center"}>
+        <div className={"text-[#fff] py-20 flex flex-col items-center justify-center px-100"}>
             <div className={"grid items-center  justify-center text-center"}>
                 <p className={" text-[57px] font-family"}>We are in a good company</p>
                 <p className={" mx-65 pt-3 text-[20px]"}>
