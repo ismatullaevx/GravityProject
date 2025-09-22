@@ -5,10 +5,15 @@
     border-radius: 8px;
 }
 
-.leander2 {
-    background: linear-gradient(#665DCD, #5FA4E6, #D2AB67);
-    width: 191px;
-    padding: 10px;
-    text-align: center;
-    color: white;
+.IMgOne {
+    background-image: url(./assets/icons/mix.png);
+
+}
+
+.IMgThree {
+    background-image: url(./assets/icons/mix3.png);
+}
+
+.Btn1 {
+    background: linear-gradient(to bottom, #665DCD, #5FA4E6, #D2AB67);
 }

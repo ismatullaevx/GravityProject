@@ -13,7 +13,9 @@ export default function CryptoMarket() {
         <div>
             <div className='mt-[100px]'>
                 <h1 className='text-white text-center text-[56px] leading-[78px]'>Crypto Market Making</h1>
-                <h1 className='text-white text-center mt-[20px] w-full'>We are a global crypto liquidity provider and algorithmic market <br /> maker. We trade digital assets listed on Centralized Exchanges in <br /> over 15 countries worldwide.</h1>
+                <h1 className='text-white text-center mt-[20px] w-full'>We are a global crypto liquidity provider and
+                    algorithmic market <br/> maker. We trade digital assets listed on Centralized Exchanges
+                    in <br/> over 15 countries worldwide.</h1>
             </div>
             <div className=' flex justify-between items-center mt-[50px]'>
                 <div className='text-[#fff] flex flex-col gap-4'>
