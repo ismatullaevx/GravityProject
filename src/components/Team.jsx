@@ -1,7 +1,7 @@
 import {FaArrowRight} from "react-icons/fa";
 import React from "react";
 
-export default function Join() {
+export default function Team() {
     return (
         <div className={"text-[#fff] IMgOne bg-no-repeat"}>
             <div className={"container mx-auto grid lg:flex items-center justify-between min-h-screen w-screen px-10 lg:px-0"}>

@@ -10,8 +10,9 @@ const Company = () => {
                     <br className="hidden md:block" /> provides 24/7 liquidity to 170+ crypto assets across 25+
                     <br className="hidden md:block" /> centralized spot and derivative crypto exchanges.
                 </h1>
-                <div className='flex items-center justify-center mt-4 md:mt-5'>
-                    <button className='leander3 px-6 py-3 text-white text-sm md:text-base bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors'>GET IN TOUCH</button>
+               <div className=' flex itemes-center justify-center mt-[40px] '>
+                    <div className='Btn1 px-10 py-3 text-[#fff]'>GET IN TOUCH</div>
+
                 </div>
             </div>
 
